@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: ETH-Price-Prediction
-    env: python
-    pythonVersion: 3.8.16
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunircorn app:app
